@@ -1,0 +1,4 @@
+interface:
+  display_name: "Personal Catalog Site Builder"
+  short_description: "Build personal B2B catalogs with private CRM guidance"
+  default_prompt: "Use $personal-catalog-site-builder to build a person-led product website using approved content and a protected customer workspace."

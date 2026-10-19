@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Synthetic personal catalog prototype. Replace all sample content before launch.">
+  <title>Personal Catalog — Demo</title>
+  <link rel="icon" href="product.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header><a class="wordmark" href="?" id="home-link">CATALOG ↗</a><nav aria-label="Main"><a id="catalog-link" href="#catalog">Catalog</a><a id="contact-link" href="#contact">Contact</a><label><span class="sr-only" id="language-label">Language</span><select id="language"><option value="en">English</option><option value="es">Español</option></select></label></nav></header>
+  <main id="main"><p class="loading">Loading… / Cargando…</p></main>
+  <dialog id="preview" aria-labelledby="preview-title"><div class="dialog-bar"><h2 id="preview-title"></h2><button id="close-preview" type="button">Close</button></div><img id="preview-image" src="product.svg" alt=""><p id="preview-error" hidden></p></dialog>
+  <footer id="demo-notice">Synthetic demonstration • No customer data is collected.</footer>
+</body>
+</html>

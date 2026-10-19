@@ -1,0 +1,15 @@
+{
+  "person": {"name": "Your name / Tu nombre", "intro": {"en": "Introduce your role and approved experience here. This is synthetic demonstration content.", "es": "Presenta tu función y experiencia confirmada aquí. Este contenido es una demostración ficticia."}},
+  "products": [
+    {"id": "sample-a", "name": "Example Product A", "image": "product.svg", "models": [
+      {"size": "DEMO-01", "code": "EX-A01", "index": "—"},
+      {"size": "DEMO-02", "code": "EX-A02", "index": "—"},
+      {"size": "DEMO-03", "code": "EX-A03", "index": "—"},
+      {"size": "DEMO-04", "code": "EX-A04", "index": "—"},
+      {"size": "DEMO-05", "code": "EX-A05", "index": "—"},
+      {"size": "DEMO-06", "code": "EX-A06", "index": "—"}
+    ]},
+    {"id": "sample-b", "name": "Example Product B", "image": "product.svg", "models": []},
+    {"id": "sample-c", "name": "Example Product C", "image": "product.svg", "models": [{"size": "DEMO-C", "code": "EX-C01", "index": "—"}]}
+  ]
+}
